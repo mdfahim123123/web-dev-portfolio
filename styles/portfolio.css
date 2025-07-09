@@ -11,12 +11,44 @@
 
 .text-primary{
     color: #FD6E0A;
+    
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* header */
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
 }
 
 /* nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+  
 }
 
 .nav-title{
@@ -24,8 +56,44 @@ nav{
     font: size 45px;
 }
 
+nav ul li {
+    list-style: none;
+      margin-right: 50px;
+}
 
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
 
-nav{
+/* bannar styles */
 
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.bannar-content{
+    max-width: 580px;
+
+}
+.bannar-gritting{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bannar-title{
+    font-weight: bole;
+    font-size: 85px;
+
+}
+.bannar-discription{
+    font-size: 18px;
+
+}
+
+.bannar-pic-1{
+    width: 580px;
+}
 
